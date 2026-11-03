@@ -1,0 +1,214 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Menu | La Esmeralda Restaurante y Tortillería — Levelland, TX</title>
+    <meta
+      name="description"
+      content="Full menu for La Esmeralda in Levelland, TX: breakfast burritos, huevos rancheros, migas, meat plates, tortas, tacos, weekend menudo, guisados to-go and homemade tortillas."
+    />
+    <meta name="theme-color" content="#0e0c0a" />
+    <link rel="icon" type="image/png" href="images/brand/favicon.png" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Satisfy&family=Source+Sans+3:wght@400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/base.css" />
+    <link rel="stylesheet" href="css/menu.css" />
+
+    <script>
+      document.documentElement.classList.add("js");
+    </script>
+  </head>
+
+  <body>
+    <a class="skip-link" href="#main">Skip to content</a>
+
+    <!-- ================= Header ================= -->
+    <header class="site-header site-header--solid" data-header>
+      <div class="container nav">
+        <a class="brand" href="index.html" aria-label="La Esmeralda home">
+          <img src="images/brand/sombrero.png" alt="" width="250" height="150" />
+          <span class="brand__text">
+            <span class="brand__name">La Esmeralda</span>
+            <span class="brand__tag">Restaurante y Tortillería</span>
+          </span>
+        </a>
+
+        <nav class="nav__menu" id="site-menu" aria-label="Main">
+          <ul class="nav__links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="menu.html" aria-current="page">Menu</a></li>
+            <li><a href="index.html#about">About</a></li>
+            <li><a href="index.html#visit">Visit</a></li>
+          </ul>
+          <div class="nav__actions">
+            <a class="btn btn--facebook btn--sm" href="https://www.facebook.com/LaEsmeralda301/" target="_blank" rel="noopener">
+              <span class="icon-bubble">
+                <svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M13.5 21v-7.6h2.6l.4-3h-3V8.5c0-.9.3-1.5 1.5-1.5h1.6V4.3c-.3 0-1.2-.1-2.3-.1-2.3 0-3.9 1.4-3.9 4v2.2H7.8v3h2.6V21h3.1z" /></svg>
+              </span>
+              <span class="label">Facebook</span>
+            </a>
+            <a class="btn btn--doordash btn--sm" href="https://www.doordash.com/store/tortilleria-la-esmeralda-levelland-35293631/" target="_blank" rel="noopener">
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" d="M5.5 8h13l-1.1 12H6.6L5.5 8zM9 8V7a3 3 0 0 1 6 0v1" /></svg>
+              <span class="label">Order on DoorDash</span>
+            </a>
+          </div>
+        </nav>
+
+        <a class="btn btn--doordash btn--sm nav__quick" href="https://www.doordash.com/store/tortilleria-la-esmeralda-levelland-35293631/" target="_blank" rel="noopener" aria-label="Order on DoorDash">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" d="M5.5 8h13l-1.1 12H6.6L5.5 8zM9 8V7a3 3 0 0 1 6 0v1" /></svg>
+          <span class="label">Order</span>
+        </a>
+        <button class="nav__toggle" type="button" aria-expanded="false" aria-controls="site-menu" aria-label="Open menu">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </header>
+
+    <main id="main">
+      <!-- ================= Menu hero ================= -->
+      <section class="menu-hero">
+        <div class="menu-hero__media" data-parallax="0.25" aria-hidden="true">
+          <img src="images/home/tortillas-stack.jpg" alt="" width="1200" height="900" />
+        </div>
+        <div class="papel menu-hero__papel" data-papel="16" aria-hidden="true"></div>
+        <div class="container menu-hero__inner">
+          <span class="script menu-hero__kicker">Nuestro menú</span>
+          <h1 class="menu-hero__title">The Full Menu</h1>
+          <p class="menu-hero__lead">
+            Everything is made in our kitchen, starting with the tortillas. Tap <strong>Choices &amp; add-ons</strong> on
+            any dish to see the meats, sides and extras that go with it.
+          </p>
+          <ul class="menu-hero__notes">
+            <li>Breakfast until 1 PM</li>
+            <li>Menudo Fri &amp; Sat</li>
+            <li>Prices shown are starting prices</li>
+          </ul>
+        </div>
+      </section>
+
+      <!-- ================= Section tabs ================= -->
+      <nav class="menu-tabs" aria-label="Menu sections">
+        <div class="container menu-tabs__inner">
+          <div class="menu-tabs__list">
+            <a href="#breakfast" class="is-active">Breakfast</a>
+            <a href="#lunch">Lunch</a>
+            <a href="#to-go">To-Go</a>
+            <a href="#drinks-extras">Drinks &amp; Extras</a>
+          </div>
+          <button class="menu-tabs__expand" type="button" data-expand-all aria-pressed="false">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7 10l5 5 5-5M7 5l5 5 5-5" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" /></svg>
+            <span>Expand all</span>
+          </button>
+        </div>
+      </nav>
+
+      <!-- Menu items are built from js/menu-data.js -->
+      <div class="container" id="menu-root"></div>
+
+      <noscript>
+        <div class="container menu-noscript">
+          <p>Turn on JavaScript to browse the interactive menu, or view our menu boards below.</p>
+        </div>
+      </noscript>
+
+      <!-- ================= Original menu boards ================= -->
+      <section class="boards">
+        <div class="container">
+          <header class="boards__head reveal">
+            <span class="script">Como en la tienda</span>
+            <h2 class="menu-section__title">Our menu boards</h2>
+            <p>The same boards you'll see when you walk in. Tap to enlarge.</p>
+          </header>
+          <div class="boards__grid">
+            <a class="board-thumb reveal" style="--i: 0" href="images/menu-boards/breakfast-menu.webp" data-lightbox>
+              <img src="images/menu-boards/breakfast-menu.webp" alt="La Esmeralda breakfast menu board" width="1672" height="941" loading="lazy" />
+              <span>Breakfast board</span>
+            </a>
+            <a class="board-thumb reveal" style="--i: 1" href="images/menu-boards/lunch-menu.webp" data-lightbox>
+              <img src="images/menu-boards/lunch-menu.webp" alt="La Esmeralda lunch, to-go, drinks and extras menu board" width="1536" height="1024" loading="lazy" />
+              <span>Lunch, to-go &amp; drinks board</span>
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <!-- ================= Order CTA ================= -->
+      <section class="menu-cta">
+        <div class="container menu-cta__inner reveal">
+          <div>
+            <h2 class="menu-section__title">Ready to order?</h2>
+            <p>Call ahead at <a href="tel:+18068971240">(806) 897-1240</a>, swing through the drive-thru, or get it delivered.</p>
+          </div>
+          <a class="btn btn--doordash" href="https://www.doordash.com/store/tortilleria-la-esmeralda-levelland-35293631/" target="_blank" rel="noopener">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" d="M5.5 8h13l-1.1 12H6.6L5.5 8zM9 8V7a3 3 0 0 1 6 0v1" /></svg>
+            Order on DoorDash
+          </a>
+        </div>
+      </section>
+    </main>
+
+    <dialog class="lightbox" aria-label="Menu board">
+      <img src="" alt="" />
+      <button class="lightbox__close" type="button" aria-label="Close">✕</button>
+    </dialog>
+
+    <!-- ================= Footer ================= -->
+    <footer class="site-footer">
+      <div class="trim" aria-hidden="true"></div>
+      <div class="container">
+        <div class="footer-grid">
+          <div class="footer-brand">
+            <img src="images/brand/logo.png" alt="La Esmeralda Restaurante y Tortillería" width="340" height="230" loading="lazy" />
+            <p>Family-owned Mexican restaurant and tortillería serving Levelland, Texas.</p>
+          </div>
+          <div>
+            <h3>Visit</h3>
+            <ul class="footer-list">
+              <li>301 West Ave</li>
+              <li>Levelland, TX 79336</li>
+              <li><a href="tel:+18068971240">(806) 897-1240</a></li>
+            </ul>
+          </div>
+          <div>
+            <h3>Hours</h3>
+            <ul class="footer-list">
+              <li>Mon – Sat: 6 AM – 2 PM</li>
+              <li>Breakfast until 1 PM</li>
+              <li>Menudo Fri &amp; Sat</li>
+            </ul>
+          </div>
+          <div>
+            <h3>Explore</h3>
+            <ul class="footer-list">
+              <li><a href="index.html">Home</a></li>
+              <li><a href="index.html#about">About us</a></li>
+              <li><a href="index.html#visit">Location</a></li>
+            </ul>
+            <div class="footer-social" style="margin-top: 18px">
+              <a class="btn btn--facebook btn--sm" href="https://www.facebook.com/LaEsmeralda301/" target="_blank" rel="noopener" aria-label="Facebook">
+                <span class="icon-bubble" style="margin: 0">
+                  <svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M13.5 21v-7.6h2.6l.4-3h-3V8.5c0-.9.3-1.5 1.5-1.5h1.6V4.3c-.3 0-1.2-.1-2.3-.1-2.3 0-3.9 1.4-3.9 4v2.2H7.8v3h2.6V21h3.1z" /></svg>
+                </span>
+              </a>
+              <a class="btn btn--doordash btn--sm" href="https://www.doordash.com/store/tortilleria-la-esmeralda-levelland-35293631/" target="_blank" rel="noopener">DoorDash</a>
+            </div>
+          </div>
+        </div>
+        <div class="footer-bottom">
+          <p>© <span data-year>2026</span> La Esmeralda Restaurante y Tortillería</p>
+          <p>Hecho con cariño en Levelland, TX</p>
+        </div>
+      </div>
+    </footer>
+
+    <script src="js/menu-data.js" defer></script>
+    <script src="js/menu.js" defer></script>
+    <script src="js/main.js" defer></script>
+  </body>
+</html>
