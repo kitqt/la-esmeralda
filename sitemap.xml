@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+  <url>
+    <loc>https://laesmeraldalevelland.com/</loc>
+    <lastmod>2026-11-09</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>1.0</priority>
+    <image:image><image:loc>https://laesmeraldalevelland.com/images/social/og-image.jpg</image:loc></image:image>
+    <image:image><image:loc>https://laesmeraldalevelland.com/images/home/hero.jpg</image:loc></image:image>
+    <image:image><image:loc>https://laesmeraldalevelland.com/images/home/tortilla-hands.jpg</image:loc></image:image>
+    <image:image><image:loc>https://laesmeraldalevelland.com/images/home/tortillas-stack.jpg</image:loc></image:image>
+  </url>
+  <url>
+    <loc>https://laesmeraldalevelland.com/menu.html</loc>
+    <lastmod>2026-11-09</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+    <image:image><image:loc>https://laesmeraldalevelland.com/images/menu/breakfast-burrito.jpg</image:loc></image:image>
+    <image:image><image:loc>https://laesmeraldalevelland.com/images/menu/no-meat-burrito.jpg</image:loc></image:image>
+    <image:image><image:loc>https://laesmeraldalevelland.com/images/menu/migas-burrito.jpg</image:loc></image:image>
+    <image:image><image:loc>https://laesmeraldalevelland.com/images/menu/oe-egg-burrito.jpg</image:loc></image:image>
+    <image:image><image:loc>https://laesmeraldalevelland.com/images/menu/breakfast-plate.jpg</image:loc></image:image>
+    <image:image><image:loc>https://laesmeraldalevelland.com/images/menu/huevos-rancheros.jpg</image:loc></image:image>
+    <image:image><image:loc>https://laesmeraldalevelland.com/images/menu/migas-plate.jpg</image:loc></image:image>
+    <image:image><image:loc>https://laesmeraldalevelland.com/images/menu/meat-burrito.jpg</image:loc></image:image>
+    <image:image><image:loc>https://laesmeraldalevelland.com/images/menu/meat-plate.jpg</image:loc></image:image>
+    <image:image><image:loc>https://laesmeraldalevelland.com/images/menu/torta.jpg</image:loc></image:image>
+    <image:image><image:loc>https://laesmeraldalevelland.com/images/menu/taco-plate.jpg</image:loc></image:image>
+    <image:image><image:loc>https://laesmeraldalevelland.com/images/menu/tacos.jpg</image:loc></image:image>
+    <image:image><image:loc>https://laesmeraldalevelland.com/images/menu/menudo.jpg</image:loc></image:image>
+    <image:image><image:loc>https://laesmeraldalevelland.com/images/menu/barbacoa.jpg</image:loc></image:image>
+    <image:image><image:loc>https://laesmeraldalevelland.com/images/menu/asado.jpg</image:loc></image:image>
+    <image:image><image:loc>https://laesmeraldalevelland.com/images/menu/carne-guisada.jpg</image:loc></image:image>
+    <image:image><image:loc>https://laesmeraldalevelland.com/images/menu/desebrada-verde.jpg</image:loc></image:image>
+    <image:image><image:loc>https://laesmeraldalevelland.com/images/menu/drinks.jpg</image:loc></image:image>
+    <image:image><image:loc>https://laesmeraldalevelland.com/images/menu/coffee.jpg</image:loc></image:image>
+    <image:image><image:loc>https://laesmeraldalevelland.com/images/menu/chips-salsa.jpg</image:loc></image:image>
+    <image:image><image:loc>https://laesmeraldalevelland.com/images/menu/flour-tortillas.jpg</image:loc></image:image>
+    <image:image><image:loc>https://laesmeraldalevelland.com/images/menu/corn-tortillas.jpg</image:loc></image:image>
+  </url>
+</urlset>

@@ -1,0 +1,69 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Page not found | La Esmeralda — Levelland, TX</title>
+    <meta name="description" content="This page doesn't exist. See the La Esmeralda menu, hours and location in Levelland, TX." />
+    <meta name="robots" content="noindex, follow" />
+    <meta name="theme-color" content="#0e0c0a" />
+    <link rel="icon" type="image/png" sizes="32x32" href="/images/icons/favicon-32.png" />
+    <link rel="apple-touch-icon" href="/images/icons/apple-touch-icon.png" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Satisfy&family=Source+Sans+3:wght@400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <!-- root-relative paths: this page is served for any missing URL, at any depth -->
+    <link rel="stylesheet" href="/css/base.css" />
+    <style>
+      .not-found {
+        min-height: 100vh;
+        display: grid;
+        place-items: center;
+        text-align: center;
+        padding: 48px 16px;
+      }
+      .not-found img {
+        width: 160px;
+        height: auto;
+        margin: 0 auto 8px;
+      }
+      .not-found .title {
+        margin: 6px 0 14px;
+      }
+      .not-found p {
+        max-width: 34rem;
+        margin: 0 auto;
+        color: var(--muted);
+      }
+      .not-found__actions {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 12px;
+        justify-content: center;
+        margin-top: 28px;
+      }
+    </style>
+  </head>
+
+  <body>
+    <main class="not-found">
+      <div>
+        <img src="/images/brand/sombrero.png" alt="" width="250" height="150" />
+        <p class="script">¡Ay, caramba!</p>
+        <h1 class="title">Page not found</h1>
+        <p>
+          That page isn't on the menu. Head back home, check out what we're cooking, or call us at
+          <a href="tel:+18068971240">(806) 897-1240</a>.
+        </p>
+        <div class="not-found__actions">
+          <a class="btn btn--red" href="/">Back to home</a>
+          <a class="btn btn--outline" href="/menu.html">See the menu</a>
+        </div>
+      </div>
+    </main>
+  </body>
+</html>

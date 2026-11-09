@@ -4,10 +4,8 @@
    dropdowns, section tabs, "expand all" and the board lightbox.
    ========================================================= */
 
-(() => {
-  const root = document.getElementById("menu-root");
-  if (!root || !window.MENU) return;
-
+/* ---------- Templates (also used by scripts/build.mjs to pre-render menu.html) ---------- */
+window.renderMenu = (MENU) => {
   const slug = (s) =>
     s
       .toLowerCase()
@@ -21,7 +19,6 @@
   const CHEVRON =
     '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 9l6 6 6-6" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></svg>';
 
-  /* ---------- Templates ---------- */
   // long lists (like the 11 basic choices) split into two columns
   const priceList = (rows) =>
     `<ul class="price-list${rows.length >= 8 ? " price-list--split" : ""}">${rows
@@ -82,7 +79,16 @@
       <div class="menu-grid">${section.items.map(renderDish).join("")}</div>
     </section>`;
 
-  root.innerHTML = window.MENU.map(renderSection).join("");
+  return MENU.map(renderSection).join("");
+};
+
+(() => {
+  const root = document.getElementById("menu-root");
+  if (!root || !window.MENU) return;
+
+  // menu.html ships with a pre-rendered copy for search engines; rebuild from the
+  // data so edits to menu-data.js show up even before the build script is re-run
+  root.innerHTML = window.renderMenu(window.MENU);
 
   /* ---------- Dropdowns ---------- */
   const setOpen = (dish, open) => {

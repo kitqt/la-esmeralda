@@ -739,9 +739,3 @@
   color: #fff;
   font-weight: 700;
 }
-
-.menu-noscript {
-  padding: 40px 0;
-  text-align: center;
-  color: var(--muted);
-}

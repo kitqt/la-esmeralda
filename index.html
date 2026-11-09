@@ -3,16 +3,43 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>La Esmeralda | Restaurante y Tortillería — Levelland, TX</title>
+    <title>La Esmeralda | Mexican Restaurant &amp; Tortillería in Levelland, TX</title>
     <meta
       name="description"
-      content="Family-owned Mexican restaurant and tortillería in Levelland, Texas. Breakfast burritos, carne guisada, barbacoa, weekend menudo and homemade flour and corn tortillas."
+      content="Family-owned Mexican restaurant and tortillería at 301 West Ave in Levelland, TX. Breakfast burritos from 6 AM, carne guisada, barbacoa, weekend menudo and homemade flour &amp; corn tortillas. Dine-in, drive-thru, takeout and delivery."
     />
+    <meta name="robots" content="index, follow, max-image-preview:large" />
+    <link rel="canonical" href="https://laesmeraldalevelland.com/" />
     <meta name="theme-color" content="#0e0c0a" />
-    <meta property="og:title" content="La Esmeralda — Restaurante y Tortillería" />
-    <meta property="og:description" content="Homemade tortillas, breakfast burritos and authentic Mexican cooking in Levelland, TX." />
-    <meta property="og:image" content="images/home/hero.jpg" />
-    <link rel="icon" type="image/png" href="images/brand/favicon.png" />
+    <meta name="format-detection" content="telephone=yes" />
+
+    <!-- Local SEO -->
+    <meta name="geo.region" content="US-TX" />
+    <meta name="geo.placename" content="Levelland" />
+    <meta name="geo.position" content="33.590244;-102.3867133" />
+    <meta name="ICBM" content="33.590244, -102.3867133" />
+
+    <!-- Social sharing (Facebook, iMessage, X, etc.) -->
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="La Esmeralda Restaurante y Tortillería" />
+    <meta property="og:locale" content="en_US" />
+    <meta property="og:url" content="https://laesmeraldalevelland.com/" />
+    <meta property="og:title" content="La Esmeralda — Mexican Restaurant &amp; Tortillería in Levelland, TX" />
+    <meta property="og:description" content="Homemade tortillas, breakfast burritos from 6 AM and authentic Mexican cooking at 301 West Ave, Levelland." />
+    <meta property="og:image" content="https://laesmeraldalevelland.com/images/social/og-image.jpg" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta property="og:image:alt" content="Street tacos on homemade corn tortillas with onion and cilantro at La Esmeralda" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="La Esmeralda — Mexican Restaurant &amp; Tortillería in Levelland, TX" />
+    <meta name="twitter:description" content="Homemade tortillas, breakfast burritos from 6 AM and authentic Mexican cooking at 301 West Ave, Levelland." />
+    <meta name="twitter:image" content="https://laesmeraldalevelland.com/images/social/og-image.jpg" />
+
+    <!-- Icons -->
+    <link rel="icon" type="image/png" sizes="32x32" href="images/icons/favicon-32.png" />
+    <link rel="icon" type="image/png" sizes="192x192" href="images/icons/icon-192.png" />
+    <link rel="apple-touch-icon" href="images/icons/apple-touch-icon.png" />
+    <link rel="manifest" href="site.webmanifest" />
 
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -27,25 +54,134 @@
     <script>
       document.documentElement.classList.add("js");
     </script>
+    <!-- build:site-jsonld -->
     <script type="application/ld+json">
-      {
-        "@context": "https://schema.org",
-        "@type": "Restaurant",
-        "name": "La Esmeralda Restaurante y Tortillería",
-        "servesCuisine": "Mexican",
-        "telephone": "+1-806-897-1240",
-        "address": {
-          "@type": "PostalAddress",
-          "streetAddress": "301 West Ave",
-          "addressLocality": "Levelland",
-          "addressRegion": "TX",
-          "postalCode": "79336",
-          "addressCountry": "US"
+    {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "Restaurant",
+          "@id": "https://laesmeraldalevelland.com/#restaurant",
+          "name": "La Esmeralda Restaurante y Tortillería",
+          "alternateName": [
+            "La Esmeralda",
+            "Tortilleria La Esmeralda"
+          ],
+          "description": "Family-owned Mexican restaurant and tortillería in Levelland, Texas serving breakfast burritos, guisados, weekend menudo and homemade flour and corn tortillas.",
+          "url": "https://laesmeraldalevelland.com/",
+          "logo": "https://laesmeraldalevelland.com/images/brand/logo.png",
+          "image": [
+            "https://laesmeraldalevelland.com/images/social/og-image.jpg",
+            "https://laesmeraldalevelland.com/images/home/hero.jpg",
+            "https://laesmeraldalevelland.com/images/home/tortillas-stack.jpg"
+          ],
+          "telephone": "+1-806-897-1240",
+          "priceRange": "$",
+          "servesCuisine": [
+            "Mexican",
+            "Tex-Mex",
+            "Breakfast"
+          ],
+          "acceptsReservations": false,
+          "hasMenu": "https://laesmeraldalevelland.com/menu.html",
+          "address": {
+            "@type": "PostalAddress",
+            "streetAddress": "301 West Ave",
+            "addressLocality": "Levelland",
+            "addressRegion": "TX",
+            "postalCode": "79336",
+            "addressCountry": "US"
+          },
+          "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": 33.590244,
+            "longitude": -102.3867133
+          },
+          "hasMap": "https://maps.google.com/?cid=2342102564549496735",
+          "areaServed": [
+            {
+              "@type": "City",
+              "name": "Levelland, TX"
+            },
+            {
+              "@type": "AdministrativeArea",
+              "name": "Hockley County, TX"
+            }
+          ],
+          "openingHoursSpecification": [
+            {
+              "@type": "OpeningHoursSpecification",
+              "dayOfWeek": [
+                "Monday",
+                "Tuesday",
+                "Wednesday",
+                "Thursday",
+                "Friday",
+                "Saturday"
+              ],
+              "opens": "06:00",
+              "closes": "14:00"
+            }
+          ],
+          "amenityFeature": [
+            {
+              "@type": "LocationFeatureSpecification",
+              "name": "Dine-in",
+              "value": true
+            },
+            {
+              "@type": "LocationFeatureSpecification",
+              "name": "Drive-thru",
+              "value": true
+            },
+            {
+              "@type": "LocationFeatureSpecification",
+              "name": "Takeout",
+              "value": true
+            },
+            {
+              "@type": "LocationFeatureSpecification",
+              "name": "Delivery",
+              "value": true
+            },
+            {
+              "@type": "LocationFeatureSpecification",
+              "name": "High chairs",
+              "value": true
+            }
+          ],
+          "potentialAction": {
+            "@type": "OrderAction",
+            "target": {
+              "@type": "EntryPoint",
+              "urlTemplate": "https://www.doordash.com/store/tortilleria-la-esmeralda-levelland-35293631/",
+              "actionPlatform": [
+                "http://schema.org/DesktopWebPlatform",
+                "http://schema.org/MobileWebPlatform"
+              ]
+            }
+          },
+          "sameAs": [
+            "https://www.facebook.com/LaEsmeralda301/",
+            "https://maps.google.com/?cid=2342102564549496735",
+            "https://www.doordash.com/store/tortilleria-la-esmeralda-levelland-35293631/"
+          ]
         },
-        "hasMenu": "menu.html",
-        "sameAs": ["https://www.facebook.com/LaEsmeralda301/"]
-      }
+        {
+          "@type": "WebSite",
+          "@id": "https://laesmeraldalevelland.com/#website",
+          "url": "https://laesmeraldalevelland.com/",
+          "name": "La Esmeralda",
+          "alternateName": "La Esmeralda Restaurante y Tortillería",
+          "inLanguage": "en-US",
+          "publisher": {
+            "@id": "https://laesmeraldalevelland.com/#restaurant"
+          }
+        }
+      ]
+    }
     </script>
+    <!-- /build:site-jsonld -->
   </head>
 
   <body>
@@ -402,9 +538,9 @@
                 </span>
                 <div>
                   <h3>Hours</h3>
-                  <!-- Hours: confirm with the restaurant and update here + in the footer -->
                   <dl class="hours">
                     <div><dt>Mon – Sat</dt><dd>6:00 AM – 2:00 PM</dd></div>
+                    <div><dt>Sunday</dt><dd>Closed</dd></div>
                     <div><dt>Breakfast</dt><dd>Until 1:00 PM</dd></div>
                     <div><dt>Menudo</dt><dd>Fri &amp; Sat</dd></div>
                   </dl>
@@ -479,6 +615,7 @@
             <h3>Hours</h3>
             <ul class="footer-list">
               <li>Mon – Sat: 6 AM – 2 PM</li>
+              <li>Sunday: Closed</li>
               <li>Breakfast until 1 PM</li>
               <li>Menudo Fri &amp; Sat</li>
             </ul>
