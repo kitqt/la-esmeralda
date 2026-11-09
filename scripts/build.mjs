@@ -63,6 +63,9 @@ const inject = (html, name, content) => {
 
 const jsonLd = (data) => `<script type="application/ld+json">\n${JSON.stringify(data, null, 2)}\n</script>`;
 
+// the "photo coming soon" card isn't a picture of the dish, so keep it out of search data
+const isPlaceholder = (img) => /photo-coming-soon/.test(img);
+
 // "from $6.00" / "$2.75 ea" → "6.00"
 const parsePrice = (label) => label?.match(/\$\s*(\d+(?:\.\d{1,2})?)/)?.[1];
 
@@ -86,7 +89,7 @@ const restaurant = {
   description: BUSINESS.description,
   url: `${SITE_URL}/`,
   logo: abs("images/brand/logo.png"),
-  image: [abs("images/social/og-image.jpg"), abs("images/home/hero.jpg"), abs("images/home/tortillas-stack.jpg")],
+  image: [abs("images/social/og-image.jpg"), abs("images/menu/huevos-rancheros.jpg"), abs("images/home/tortillas-stack.jpg")],
   telephone: BUSINESS.telephone,
   priceRange: BUSINESS.priceRange,
   servesCuisine: ["Mexican", "Tex-Mex", "Breakfast"],
@@ -132,8 +135,8 @@ const menuItem = (item, i) => {
     "@type": "MenuItem",
     name: item.name,
     description: item.description,
-    image: abs(item.image),
   };
+  if (!isPlaceholder(item.image)) out.image = abs(item.image);
   if (item.prices?.length) {
     out.offers = item.prices
       .filter((p) => parsePrice(p.price))
@@ -202,8 +205,8 @@ Sitemap: ${SITE_URL}/sitemap.xml
 );
 
 const urls = [
-  { loc: `${SITE_URL}/`, priority: "1.0", changefreq: "monthly", images: ["images/social/og-image.jpg", "images/home/hero.jpg", "images/home/tortilla-hands.jpg", "images/home/tortillas-stack.jpg"] },
-  { loc: abs("menu.html"), priority: "0.9", changefreq: "monthly", images: [...new Set(MENU.flatMap((s) => s.items.map((i) => i.image)))] },
+  { loc: `${SITE_URL}/`, priority: "1.0", changefreq: "monthly", images: ["images/social/og-image.jpg", "images/menu/huevos-rancheros.jpg", "images/home/tortilla-hands.jpg", "images/home/tortillas-stack.jpg"] },
+  { loc: abs("menu.html"), priority: "0.9", changefreq: "monthly", images: [...new Set(MENU.flatMap((s) => s.items.map((i) => i.image)))].filter((img) => !isPlaceholder(img)) },
 ];
 write(
   "sitemap.xml",

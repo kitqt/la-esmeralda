@@ -84,14 +84,14 @@ const MENU = [
       {
         name: "No Meat 3 Item Burrito",
         price: "from $5.00",
-        image: "images/menu/no-meat-burrito.jpg",
+        image: "images/menu/photo-coming-soon.svg",
         description: "Build it your way with any three items of your liking from our basic choices.",
         options: [group("Pick 3 basic choices", OPTIONS.basicChoices)],
       },
       {
         name: "Migas Burrito",
         price: "from $5.00",
-        image: "images/menu/migas-burrito.jpg",
+        image: "images/menu/photo-coming-soon.svg",
         description: "Two eggs scrambled with fried corn tortilla, onion, jalapeño and tomato.",
         options: [
           group("What's inside", [{ name: "2 Eggs" }, { name: "Fried Corn Tortilla" }, { name: "Onion" }, { name: "Jalapeño" }, { name: "Tomato" }]),
@@ -102,14 +102,14 @@ const MENU = [
       {
         name: "O/E Egg Burrito",
         price: "from $6.50",
-        image: "images/menu/oe-egg-burrito.jpg",
+        image: "images/menu/photo-coming-soon.svg",
         description: "Two over-easy eggs with two items of your liking from our basic choices.",
         options: [group("Pick 2 basic choices", OPTIONS.basicChoices), group("Add a breakfast meat", OPTIONS.breakfastMeats)],
       },
       {
         name: "Breakfast Plate",
         price: "from $11.99",
-        image: "images/menu/breakfast-plate.jpg",
+        image: "images/menu/photo-coming-soon.svg",
         description: "Two eggs with your choice of two sides and fresh tortillas.",
         options: [group("Pick 2 sides", OPTIONS.breakfastSides), group("Tortillas", OPTIONS.tortillas), group("Extras", OPTIONS.breakfastExtras)],
       },
@@ -170,7 +170,7 @@ const MENU = [
       {
         name: "Taco Plate",
         price: "from $10.99",
-        image: "images/menu/taco-plate.jpg",
+        image: "images/menu/photo-coming-soon.svg",
         description: "Three tacos with your choice of meat, two sides and the tortillas of your choice.",
         options: [
           group("Pick your meat", OPTIONS.meats),
@@ -182,7 +182,7 @@ const MENU = [
       {
         name: "Tacos",
         price: "$2.75 each",
-        image: "images/menu/tacos.jpg",
+        image: "images/menu/photo-coming-soon.svg",
         description: "Your choice of meat on our homemade corn tortillas. Order as many as you like.",
         options: [group("Pick your meat", OPTIONS.meats)],
       },
@@ -190,7 +190,7 @@ const MENU = [
         name: "Menudo",
         price: "Sm $15 · Lg $19",
         badge: "Fri & Sat only",
-        image: "images/menu/menudo.jpg",
+        image: "images/menu/photo-coming-soon.svg",
         description: "A hot bowl of menudo served with limes, onions and your choice of tortillas.",
         toggleLabel: "Sizes & extras",
         options: [
@@ -217,7 +217,7 @@ const MENU = [
         name: "Barbacoa",
         price: "from $9.00",
         badge: "By the pound",
-        image: "images/menu/barbacoa.jpg",
+        image: "images/menu/photo-coming-soon.svg",
         description: "Tender barbacoa sold by the pound, enough to feed the whole family.",
         prices: [
           { name: "½ lb", price: "$9.00" },
@@ -229,7 +229,7 @@ const MENU = [
       {
         name: "Asado",
         price: "from $15.00",
-        image: "images/menu/asado.jpg",
+        image: "images/menu/photo-coming-soon.svg",
         description: "Pork simmered in a rich red chile sauce, by the cup.",
         prices: [
           { name: "Small cup (16 oz)", price: "$15.00" },
@@ -241,7 +241,7 @@ const MENU = [
       {
         name: "Carne Guisada",
         price: "from $17.00",
-        image: "images/menu/carne-guisada.jpg",
+        image: "images/menu/photo-coming-soon.svg",
         description: "Beef tips slow-simmered in a savory gravy, by the cup.",
         prices: [
           { name: "Small cup (16 oz)", price: "$17.00" },
@@ -253,7 +253,7 @@ const MENU = [
       {
         name: "Desebrada Verde",
         price: "from $20.00",
-        image: "images/menu/desebrada-verde.jpg",
+        image: "images/menu/photo-coming-soon.svg",
         description: "Shredded beef in green chile salsa, by the cup.",
         prices: [
           { name: "Small cup (16 oz)", price: "$20.00" },

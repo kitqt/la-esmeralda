@@ -6,6 +6,21 @@
 (() => {
   const reduceMotion = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
 
+  /* ---------- Hero slideshow: crossfade through the photos every few seconds ---------- */
+  const slideshow = document.querySelector("[data-slideshow]");
+  if (slideshow && !reduceMotion) {
+    const slides = [...slideshow.querySelectorAll("img")];
+    let current = 0;
+    if (slides.length > 1) {
+      setInterval(() => {
+        if (document.hidden) return;
+        slides[current].classList.remove("is-active");
+        current = (current + 1) % slides.length;
+        slides[current].classList.add("is-active");
+      }, 6000);
+    }
+  }
+
   /* ---------- Header turns solid once the page scrolls ---------- */
   const header = document.querySelector("[data-header]");
   if (header) {

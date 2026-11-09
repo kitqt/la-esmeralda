@@ -49,7 +49,7 @@
     />
     <link rel="stylesheet" href="css/base.css" />
     <link rel="stylesheet" href="css/home.css" />
-    <link rel="preload" as="image" href="images/home/hero.jpg" />
+    <link rel="preload" as="image" href="images/menu/huevos-rancheros.jpg" />
 
     <script>
       document.documentElement.classList.add("js");
@@ -72,7 +72,7 @@
           "logo": "https://laesmeraldalevelland.com/images/brand/logo.png",
           "image": [
             "https://laesmeraldalevelland.com/images/social/og-image.jpg",
-            "https://laesmeraldalevelland.com/images/home/hero.jpg",
+            "https://laesmeraldalevelland.com/images/menu/huevos-rancheros.jpg",
             "https://laesmeraldalevelland.com/images/home/tortillas-stack.jpg"
           ],
           "telephone": "+1-806-897-1240",
@@ -233,7 +233,15 @@
       <!-- ================= Hero ================= -->
       <section class="hero">
         <div class="hero__media" data-parallax="0.3" aria-hidden="true">
-          <img src="images/home/hero.jpg" alt="" width="1920" height="1200" fetchpriority="high" />
+          <div class="hero__slides" data-slideshow>
+            <img class="is-active" src="images/menu/huevos-rancheros.jpg" alt="" width="900" height="675" fetchpriority="high" />
+            <img src="images/menu/meat-burrito.jpg" alt="" width="900" height="675" loading="lazy" />
+            <img src="images/menu/torta.jpg" alt="" width="900" height="675" loading="lazy" />
+            <img src="images/menu/migas-plate.jpg" alt="" width="900" height="675" loading="lazy" />
+            <img src="images/menu/breakfast-burrito.jpg" alt="" width="900" height="675" loading="lazy" />
+            <img src="images/menu/meat-plate.jpg" alt="" width="900" height="675" loading="lazy" />
+            <img src="images/menu/flour-tortillas.jpg" alt="" width="900" height="675" loading="lazy" />
+          </div>
         </div>
         <div class="papel hero__papel" data-papel="16" aria-hidden="true"></div>
 
@@ -390,7 +398,7 @@
               </span>
             </a>
             <a class="fav-card reveal" style="--i: 2" href="menu.html#item-carne-guisada">
-              <img src="images/menu/carne-guisada.jpg" alt="Bowl of carne guisada" width="800" height="600" loading="lazy" />
+              <img src="images/menu/photo-coming-soon.svg" alt="Photo of carne guisada coming soon" width="800" height="600" loading="lazy" />
               <span class="fav-card__price">from $17.00</span>
               <span class="fav-card__body">
                 <span class="fav-card__tag">Para llevar</span>
@@ -414,7 +422,7 @@
       <!-- ================= Breakfast / Lunch ================= -->
       <section class="dayparts" aria-label="Breakfast and lunch">
         <a class="daypart reveal reveal--left" href="menu.html#breakfast">
-          <img src="images/menu/breakfast-plate.jpg" alt="" width="800" height="600" loading="lazy" />
+          <img src="images/menu/huevos-rancheros.jpg" alt="" width="800" height="600" loading="lazy" />
           <span class="daypart__body">
             <span class="script">Desayuno</span>
             <span class="daypart__title">Breakfast</span>
@@ -428,7 +436,7 @@
           </span>
         </a>
         <a class="daypart reveal reveal--right" href="menu.html#lunch">
-          <img src="images/menu/taco-plate.jpg" alt="" width="800" height="600" loading="lazy" />
+          <img src="images/menu/meat-burrito.jpg" alt="" width="800" height="600" loading="lazy" />
           <span class="daypart__body">
             <span class="script">Comida</span>
             <span class="daypart__title">Lunch</span>
@@ -459,7 +467,7 @@
           </div>
           <div class="menudo__media reveal reveal--zoom" style="--i: 1">
             <div class="steam" aria-hidden="true"><span></span><span></span><span></span></div>
-            <img src="images/menu/menudo.jpg" alt="Bowl of red menudo with lime" width="800" height="600" loading="lazy" />
+            <img src="images/menu/photo-coming-soon.svg" alt="Photo of menudo coming soon" width="800" height="600" loading="lazy" />
           </div>
         </div>
       </section>
@@ -468,7 +476,7 @@
       <section class="section togo" id="to-go">
         <div class="container togo__grid">
           <div class="togo__media reveal reveal--left">
-            <img src="images/menu/barbacoa.jpg" alt="Shredded barbacoa in a cast iron pan" width="800" height="600" loading="lazy" />
+            <img src="images/menu/chips-salsa.jpg" alt="Bag of fresh tortilla chips with a cup of house salsa" width="800" height="600" loading="lazy" />
             <img src="images/menu/flour-tortillas.jpg" alt="Stack of homemade flour tortillas" width="800" height="600" loading="lazy" />
           </div>
 

@@ -55,7 +55,7 @@ window.renderMenu = (MENU) => {
 
     return `<article class="dish reveal" id="${id}" style="--i:${index % 3}">
       <div class="dish__media">
-        <img src="${esc(item.image)}" alt="${esc(item.name)}" width="800" height="600" loading="lazy" />
+        <img src="${esc(item.image)}" alt="${/photo-coming-soon/.test(item.image) ? `Photo of ${esc(item.name)} coming soon` : esc(item.name)}" width="800" height="600" loading="lazy" />
         ${item.badge ? `<span class="dish__badge">${esc(item.badge)}</span>` : ""}
         <span class="dish__price">${esc(item.price)}</span>
       </div>

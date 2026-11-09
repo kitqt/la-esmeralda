@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" width="800" height="600" role="img" aria-label="Photo coming soon">
+  <defs>
+    <radialGradient id="glow" cx="50%" cy="38%" r="70%">
+      <stop offset="0" stop-color="#2a221c"/>
+      <stop offset="1" stop-color="#15110e"/>
+    </radialGradient>
+    <pattern id="dots" width="22" height="22" patternUnits="userSpaceOnUse">
+      <circle cx="11" cy="11" r="1.2" fill="#f3e9d2" opacity="0.06"/>
+    </pattern>
+  </defs>
+
+  <rect width="800" height="600" fill="url(#glow)"/>
+  <rect width="800" height="600" fill="url(#dots)"/>
+  <rect x="22" y="22" width="756" height="556" rx="18" fill="none" stroke="#eaa53c" stroke-opacity="0.35" stroke-width="2" stroke-dasharray="10 9"/>
+
+  <!-- plate, fork and knife -->
+  <g transform="translate(400 170)" fill="none" stroke="#eaa53c" stroke-width="5" stroke-linecap="round" stroke-linejoin="round">
+    <circle r="62"/>
+    <circle r="42" stroke-opacity="0.55"/>
+    <path d="M-104 -52v36a12 12 0 0 0 24 0v-36M-92 -52v116"/>
+    <path d="M100 64V-52c-16 8-22 30-22 56h22"/>
+  </g>
+
+  <text x="400" y="296" text-anchor="middle" fill="#f3e9d2" font-family="'Bebas Neue', Oswald, Impact, 'Arial Narrow Bold', sans-serif" font-size="46" letter-spacing="3">PHOTO COMING SOON</text>
+  <text text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-style="italic" font-size="22">
+    <tspan x="400" y="338" fill="#f6cb78">We don't have a picture</tspan>
+    <tspan x="400" y="366" fill="#f6cb78">of this one yet.</tspan>
+    <tspan x="400" y="400" fill="#b3a68d">We're working on it :)</tspan>
+  </text>
+</svg>
