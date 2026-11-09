@@ -7,8 +7,8 @@
     <priority>1.0</priority>
     <image:image><image:loc>https://laesmeraldalevelland.com/images/social/og-image.jpg</image:loc></image:image>
     <image:image><image:loc>https://laesmeraldalevelland.com/images/menu/huevos-rancheros.jpg</image:loc></image:image>
-    <image:image><image:loc>https://laesmeraldalevelland.com/images/home/tortilla-hands.jpg</image:loc></image:image>
-    <image:image><image:loc>https://laesmeraldalevelland.com/images/home/tortillas-stack.jpg</image:loc></image:image>
+    <image:image><image:loc>https://laesmeraldalevelland.com/images/menu/flour-tortillas.jpg</image:loc></image:image>
+    <image:image><image:loc>https://laesmeraldalevelland.com/images/menu/corn-tortillas.jpg</image:loc></image:image>
   </url>
   <url>
     <loc>https://laesmeraldalevelland.com/menu.html</loc>

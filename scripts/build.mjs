@@ -205,7 +205,7 @@ Sitemap: ${SITE_URL}/sitemap.xml
 );
 
 const urls = [
-  { loc: `${SITE_URL}/`, priority: "1.0", changefreq: "monthly", images: ["images/social/og-image.jpg", "images/menu/huevos-rancheros.jpg", "images/home/tortilla-hands.jpg", "images/home/tortillas-stack.jpg"] },
+  { loc: `${SITE_URL}/`, priority: "1.0", changefreq: "monthly", images: ["images/social/og-image.jpg", "images/menu/huevos-rancheros.jpg", "images/menu/flour-tortillas.jpg", "images/menu/corn-tortillas.jpg"] },
   { loc: abs("menu.html"), priority: "0.9", changefreq: "monthly", images: [...new Set(MENU.flatMap((s) => s.items.map((i) => i.image)))].filter((img) => !isPlaceholder(img)) },
 ];
 write(
