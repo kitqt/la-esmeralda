@@ -190,7 +190,7 @@ const MENU = [
         name: "Menudo",
         price: "Sm $15 · Lg $19",
         badge: "Fri & Sat only",
-        image: "images/menu/photo-coming-soon.svg",
+        image: "images/menu/menudo.jpg",
         description: "A hot bowl of menudo served with limes, onions and your choice of tortillas.",
         toggleLabel: "Sizes & extras",
         options: [
@@ -217,7 +217,7 @@ const MENU = [
         name: "Barbacoa",
         price: "from $9.00",
         badge: "By the pound",
-        image: "images/menu/photo-coming-soon.svg",
+        image: "images/menu/barbacoa.jpg",
         description: "Tender barbacoa sold by the pound, enough to feed the whole family.",
         prices: [
           { name: "½ lb", price: "$9.00" },
@@ -229,7 +229,7 @@ const MENU = [
       {
         name: "Asado",
         price: "from $15.00",
-        image: "images/menu/photo-coming-soon.svg",
+        image: "images/menu/asado.jpg",
         description: "Pork simmered in a rich red chile sauce, by the cup.",
         prices: [
           { name: "Small cup (16 oz)", price: "$15.00" },
@@ -241,7 +241,7 @@ const MENU = [
       {
         name: "Carne Guisada",
         price: "from $17.00",
-        image: "images/menu/photo-coming-soon.svg",
+        image: "images/menu/carne-guisada.jpg",
         description: "Beef tips slow-simmered in a savory gravy, by the cup.",
         prices: [
           { name: "Small cup (16 oz)", price: "$17.00" },
@@ -253,11 +253,35 @@ const MENU = [
       {
         name: "Desebrada Verde",
         price: "from $20.00",
-        image: "images/menu/photo-coming-soon.svg",
+        image: "images/menu/desebrada-verde.jpg",
         description: "Shredded beef in green chile salsa, by the cup.",
         prices: [
           { name: "Small cup (16 oz)", price: "$20.00" },
           { name: "Large cup (32 oz)", price: "$28.00" },
+        ],
+        toggleLabel: "Make it a meal",
+        options: [group("Add to your order", OPTIONS.takeHome)],
+      },
+      {
+        name: "Desebrada",
+        price: "from $15.00",
+        image: "images/menu/desebrada.jpg",
+        description: "Seasoned shredded beef, by the cup.",
+        prices: [
+          { name: "Small cup (16 oz)", price: "$15.00" },
+          { name: "Large cup (32 oz)", price: "$30.00" },
+        ],
+        toggleLabel: "Make it a meal",
+        options: [group("Add to your order", OPTIONS.takeHome)],
+      },
+      {
+        name: "Picadillo",
+        price: "from $15.00",
+        image: "images/menu/picadillo.jpg",
+        description: "Seasoned ground beef with potatoes, by the cup.",
+        prices: [
+          { name: "Small cup (16 oz)", price: "$15.00" },
+          { name: "Large cup (32 oz)", price: "$30.00" },
         ],
         toggleLabel: "Make it a meal",
         options: [group("Add to your order", OPTIONS.takeHome)],
